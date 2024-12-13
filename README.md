@@ -25,3 +25,12 @@ Authors: Kirtan Shah and Madurya Suresh
 `GeneralAttack/attack/MedQuadAttack.ipynb` - runs attack on medical question prompt
 
 `GeneralAttack/attack/HRDatasetAttack.ipynb` - runs attack on HR salary prompt
+
+`CacheHitMiss.csv` - data from running medquad_attack_with_cache.py. 
+- Dataset Number: which semantic dataset the sample comes from 
+- Label Type: True Label (predicted to be semantically similar) or False Label (predicted to be semantically different)
+- Attack Sentence Number: 0 is best attack sentence --> 5 is worst/least representative of a large semantic space
+- Query Response Time: time between attacker's query and receiving a response
+- Same Answer: whether or not attacker and victim received the same response string
+
+`get_cache_attack_data.py` - gather some data/visualizations for the presentation/report
