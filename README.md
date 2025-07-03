@@ -1,6 +1,13 @@
 # Change the Channel: Timing Side Channel Exploits for LLM Server Caches
 Authors: Kirtan Shah and Madurya Suresh
 
+## Paper
+[paper.pdf](paper.pdf)
+
+## Presentation
+[presentation.pdf](presentation.pdf)
+
+## File Structure
 `KVCacheTiming/TimingMeasurement.ipynb`:
 - first run `KVCacheTiming/launch_server.sh` for the SGLang LLM server
 - execute notebook to generate visualizations of cache hit/miss classifier ROC curve and ping timings
